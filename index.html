@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Max Lund</title>
+</head>
+
+<!--Body, taggen som innehåller allt synligt innehåll på webbplatsen.-->
+
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <!--Välkomsttext, div för att ge möjlighet till styling i CSS.-->
+            <div id="hej">
+                <h3>Hej! Jag heter Max och pluggar UX-design.</h3>
+                <h4>Här kan du hitta info om mig och vad jag har gjort.</h4>
+            </div>
+
+        </header>
+        <!--END HEADER-->
+
+        <!--Navigationsbar, länkar i nuläget till olika rubriker på webbplatsen, då jag inte har skapat några undersidor.-->
+        <nav class="topnav" id="nav">
+            <a href="#hem">Hem</a>
+            <a href="#ommig">Om mig</a>
+            <a href="#projekt">Projekt</a>
+
+        </nav>
+        <!--END NAV-->
+
+        <!--I maintaggen har jag lagt sidans primära innehåll-->
+        <main id="main">
+            <!--Div-tagg vars innehåll i nuläget är två "flexboxar" med information om mig och projekt, enkelt att fylla på med mer när det behövs.-->
+            <div id="flex">
+                <article id="ommig">
+                    <div class="bilder"><img id="profilbild" src="jag.jpg" alt="Bild på mig"></div>
+                    <h4>Om mig</h4>
+                    <p>
+                        Jag heter Max Lund och studerar just nu till UX-designer med kravkompetens på Chas Academy i
+                        Stockholm. <br>
+                        På gymnasiet läste jag teknik med inriktning informations- och medieteknik.
+                        Vid sidan om skolan arbetar jag som militärpolis i Kungsängen, strax norr om Stockholm.
+                        Under min tid i försvaret har jag läst bland annat dryckeskunskap, juridik och webbutveckling.
+                        <br><br>
+                        Inom UX brinner jag främst för researchbiten och att främja tillgänglighet på webben. Min
+                        filosofi är att webben kan göras tillgänglig för så gott som alla,
+                        utan att tumma på vare sig estetik eller funktion. Och vilka är det som tjänar på det i
+                        slutändan? Alla involverade.
+                        <br><br>
+                        Med små insatser kan vi öka tillgängligheten på webben för alla som vill använda den, och den
+                        bästa källan för lärdomar är användaren.
+                        <br><br>
+                        Bland det viktigaste jag har lärt mig under min arbetslivserfarenhet och utbildning är att
+                        alltid ta sig an saker och ting strukturerat och systematiskt.
+                        <br><br>
+                        <strong>Slow is smooth, smooth is fast.</strong>
+                        <br>
+                        <br>
+                        Mer om mig:
+                        <br>
+                        <button class="button">CV</button>
+                    </p>
+                </article>
+
+
+                <article id="projekt">
+                    <div class="bilder"><img id="projektbild" src="co2.png" alt="Logotyp för projekt"></div>
+                    <h4>Projekt</h4>
+                    <div class="bilder"><img id="demo" src="demo.png" alt="mockup"></div>
+                    <p>
+                        Pausa CO2 är ett gruppprojekt som genomfördes under den första terminen av min utbildning.
+                        <br>
+                        Det är en app-prototyp framtagen inom området hållbarhet och skapats utifrån design
+                        thinking-processen.
+
+
+                        <br><br>
+                        Mer om projektet:
+                        <br>
+                        <button class="button">Sammanställning</button>
+                        <button class="button">Länk till Figma</button>
+                    </p>
+                </article>
+            </div>
+        </main>
+        <!--END MAIN-->
+
+        <!--Enkel footer, innehåller i nuläget endast min mail.-->
+        <footer id="footer">
+            <p>
+                <br>
+                Kontaktinformation
+                <br>
+                max.lund@chasacademy.se</p>
+        </footer>
+        <!--END FOOTER-->
+
+    </div>
+    <!--END WRAPPER-->
+</body>
+
+</html>
